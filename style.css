@@ -1,8 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
+
 .banner-text {
   margin-bottom: 25px !important;
+}
+.margin-x {
+  margin: 75px auto;
+}
+.rounded-custom {
+  border-radius: 50px;
+}
+.badge-position {
+  transform: translate(-125%, -50%) !important;
 }

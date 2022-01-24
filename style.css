@@ -32,34 +32,35 @@ body {
     margin: 25px auto !important;
   }
   .vip-banner-text-div {
-    bottom: 12px !important;
+    bottom: 15px !important;
     margin: 0 auto;
     padding: 0 !important;
-    width: 50% !important;
+    width: 75% !important;
   }
   .vip-banner-title {
-    font-size: 13px !important ;
+    font-size: 25px !important ;
     font-weight: 600 !important;
     padding: 0 !important;
     margin: 0 !important;
   }
   .vip-banner-para {
-    font-size: 7px !important;
+    font-size: 12px !important;
     font-weight: 300 !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin: 4px !important;
   }
   .vip-carousel {
     margin: 0 auto !important;
   }
   .vip-banner-button {
-    padding: 3px 6px !important;
-    font-size: 6px !important;
-    margin: 0 auto !important;
+    padding: 6px 15px !important;
+    font-size: 12px !important;
+    margin: 5px auto !important;
   }
   .vip-banner-image {
-    width: 100% !important;
-    height: auto !important;
+    width: auto !important;
+    height: 524px !important;
+    object-fit: cover;
   }
   .vip-footer {
     padding: 1rem !important;
@@ -84,16 +85,16 @@ body {
     bottom: 15px !important;
     margin: 0 auto;
     padding: 0 !important;
-    width: 50% !important;
+    width: 65% !important;
   }
   .vip-banner-title {
-    font-size: 25px !important ;
+    font-size: 35px !important ;
     font-weight: 600 !important;
     padding: 0 !important;
     margin: 0 !important;
   }
   .vip-banner-para {
-    font-size: 12px !important;
+    font-size: 18px !important;
     font-weight: 300 !important;
     padding: 0 !important;
     margin: 4px !important;
@@ -102,13 +103,14 @@ body {
     margin: 0 auto !important;
   }
   .vip-banner-button {
-    padding: 6px 15px !important;
-    font-size: 12px !important;
+    padding: 8px 25px !important;
+    font-size: 15px !important;
     margin: 5px auto !important;
   }
   .vip-banner-image {
-    width: 100% !important;
-    height: auto !important;
+    width: auto !important;
+    height: 760px !important;
+    object-fit: cover;
   }
   .vip-footer {
     padding: 1.5rem !important;

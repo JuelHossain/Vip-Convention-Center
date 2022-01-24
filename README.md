@@ -1,4 +1,3 @@
-ok .
 github repo of demo
 
 # github.com/programminghero1/convention-center

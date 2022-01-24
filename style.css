@@ -19,3 +19,7 @@ body {
 .badge-position {
   transform: translate(-125%, -50%) !important;
 }
+.toast-position {
+  top: 50px !important;
+  left: 50px !important;
+}

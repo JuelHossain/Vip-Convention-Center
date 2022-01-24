@@ -47,15 +47,15 @@
               </li>
               <!-- about us  -->
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#questions">About Us</a>
               </li>
               <!-- contact  -->
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               <!-- subscribe  -->
               <li class="nav-item">
-                <a class="nav-link">Subscribe</a>
+                <a href="#packages" id="liveToastBtn" class="nav-link">Subscribe</a>
               </li>
             </ul>
 
@@ -155,14 +155,29 @@
       <!-- horizontal card end here  -->
 
       <!-- our packages section start here  -->
-      <section class="container">
+      <section class="container position-relative" id="packages">
+        <!-- toast start here  -->
+        <div class="position-absolute toast-position p-3" style="z-index: 11">
+          <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="./icons/Vector.svg" class="rounded me-2" alt="this is a toast message">
+              <strong class="me-auto">Grab Now!</strong>
+              <small>11 mins ago</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              20% discount!,limited time offer
+            </div>
+          </div>
+        </div>
+        <!-- toast end here  -->
         <div class="d-flex justify-content-center margin-x">
           <h1 class="">Our packages</h1>
         </div>
 
         <div class="mx-auto row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 align-items-end margin-x">
 
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center mb-5">
             <div class="align-items-end">
               <h1>$300</h1>
               <h3>Business fair</h3>
@@ -174,10 +189,10 @@
                 <li class="mb-1"><i class="fas fa-check-circle mx-1 text-info"></i></i>Decoration design</li>
                 <li class="mb-1"><i class="fas fa-check-circle mx-1 text-info"></i></i>Per day bill</li>
               </ul>
-              <button type="button" class="btn  btn-outline-primary rounded-custom ">Choose plan</button>
+              <button type="button" id="300" class="btn  btn-outline-primary rounded-custom ">Choose plan</button>
             </div>
           </div>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center mb-5">
             <div class="align-items-end">
               <h1>$500</h1>
               <h3>Wedding basic</h3>
@@ -189,10 +204,10 @@
                 <li class="mb-1"><i class="fas fa-check-circle mx-1 text-info"></i></i>Decoration design</li>
                 <li class="mb-1"><i class="fas fa-check-circle mx-1 text-info"></i></i>Billed as shift</li>
               </ul>
-              <button type="button" class="btn  btn-outline-primary rounded-custom">Choose plan</button>
+              <button type="button" id="500" class="btn  btn-outline-primary rounded-custom">Choose plan</button>
             </div>
           </div>
-          <div class="d-flex justify-content-center ">
+          <div class="d-flex justify-content-center mb-5">
             <div class="align-items-end p-4 bg-primary text-white rounded-custom position-relative">
               <span
                 class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-pill px-4 badge-position">
@@ -207,7 +222,7 @@
                 <li class="mb-1"><i class="fas fa-check-circle mx-1 text-info"></i></i>premium Decoration</li>
                 <li class="mb-1"><i class="fas fa-check-circle mx-1 text-info"></i></i>pay as plan</li>
               </ul>
-              <button type="button" class="btn btn-light text-primary fs-4 p-3 rounded-pill w-100">Choose
+              <button type="button" id="800" class="btn btn-light text-primary fs-4 p-3 rounded-pill w-100">Choose
                 plan</button>
             </div>
           </div>
@@ -227,7 +242,7 @@
                 </li>
                 <li class="mb-1" class="mb-1"><i class="fas fa-check-circle mx-1 text-info"></i>pay as plan</li>
               </ul>
-              <button type="button" type="button" class="btn btn-outline-primary rounded-custom">Choose
+              <button type="button" id="1200" type="button" class="btn btn-outline-primary rounded-custom">Choose
                 plan</button>
             </div>
           </div>
@@ -236,10 +251,10 @@
       <!-- our packages section end here  -->
 
       <!-- questions section start here  -->
-      <section class="container margin-x d-block">
+      <section class="container margin-x" id="questions">
         <h1 class="text-center margin-x">Frequently Asked questions</h1>
-        <div class="row row-cols-2 mx-auto">
-          <div class="accordion" id="accordionExample">
+        <div class="row row-cols-md-2 row-cols-sm-1 mx-auto">
+          <div class="accordion order-2" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -328,15 +343,48 @@
               </div>
             </div>
           </div>
-          <div class="d-flex align-items-center"><img class="img-fluid" src="./images/people.png" alt=""></div>
+          <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="./images/people.png" alt=""></div>
         </div>
       </section>
       <!-- questions section end here  -->
-      <!-- maind body end here  -->
+
+      <!-- contact use section start here  -->
+      <section class="container margin-x" id="contact">
+        <div>
+          <h2 class="text-center mb-3">Contact Us</h2>
+          <form action="">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Enter Your Name</label>
+            </div>
+            <div class="row row-cols-2">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingEmail" placeholder="email">
+                <label for="floatingEmail" class="ms-2">Enter Your Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="phone" class="form-control" id="floatingPhone" placeholder="phone">
+                <label for="floatingPhone" class="ms-2">Enter Your Number</label>
+              </div>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Write Your Query</label>
+            </div>
+            <div class="d-flex justify-content-center"><button type="submit" class="btn btn-primary">Submit
+                Now</button></div>
+
+          </form>
+        </div>
+      </section>
+      <!-- contact us section end here  -->
+
+      <!-- main body end here  -->
     </main>
     <!-- footer start here  -->
-    <footer class="container-xxl ">
-      <div class="d-flex justify-content-between align-items-center bg-dark text-light p-5">
+    <footer class="bg-dark text-light">
+      <div class="container d-flex justify-content-between align-items-center p-5 ">
         <div class="text-start">
           <h3><i class="fas fa-copyright me-1"></i>2020VIP. All Rights reserved</h3>
         </div>
@@ -348,9 +396,6 @@
             <a class="w-50 mt-1" href="https://apps.apple.com/us/app/numbers/id361304891"><img class="img-fluid"
                 src="./icons/appstore.png" alt=""></a>
         </div>
-
-
-
       </div>
       </div>
     </footer>
@@ -360,6 +405,20 @@
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"></script>
+    <!-- custom js for toast  -->
+    <script>
+      var toastTrigger = document.getElementById('liveToastBtn');
+      var toastOnHover = document.getElementsByClassName('btnOutlinePrimary');
+      var toastLiveExample = document.getElementById('liveToast');
+      if (toastTrigger) {
+        toastTrigger.addEventListener('click', function () {
+          var toast = new bootstrap.Toast(toastLiveExample)
+
+          toast.show()
+        })
+      }
+
+    </script>
   </body>
 
 </html>

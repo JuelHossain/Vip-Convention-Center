@@ -23,6 +23,11 @@ body {
   top: 50px !important;
   left: 50px !important;
 }
+.vip-banner-image {
+  width: auto !important;
+  height: 524px !important;
+  object-fit: cover;
+}
 
 @media screen and (max-width: 767px) {
   .vip-logo {
@@ -57,11 +62,6 @@ body {
     font-size: 12px !important;
     margin: 5px auto !important;
   }
-  .vip-banner-image {
-    width: auto !important;
-    height: 524px !important;
-    object-fit: cover;
-  }
   .vip-footer {
     padding: 1rem !important;
   }
@@ -82,8 +82,8 @@ body {
     margin: 40px auto !important;
   }
   .vip-banner-text-div {
-    bottom: 15px !important;
-    margin: 0 auto;
+    bottom: 20px !important;
+    margin: 0 auto !important;
     padding: 0 !important;
     width: 65% !important;
   }
@@ -106,11 +106,6 @@ body {
     padding: 8px 25px !important;
     font-size: 15px !important;
     margin: 5px auto !important;
-  }
-  .vip-banner-image {
-    width: auto !important;
-    height: 760px !important;
-    object-fit: cover;
   }
   .vip-footer {
     padding: 1.5rem !important;

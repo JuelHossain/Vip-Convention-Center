@@ -61,4 +61,66 @@ body {
     width: 100% !important;
     height: auto !important;
   }
+  .vip-footer {
+    padding: 1rem !important;
+    flex-direction: ;
+  }
+  .vip-footer-text h3 {
+    font-size: 12px !important;
+  }
+  .vip-footer-logo-box h5 {
+    font-size: 15px !important;
+  }
+  .vip-footer-logo {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1048px) {
+  .margin-x {
+    margin: 40px auto !important;
+  }
+  .vip-banner-text-div {
+    bottom: 15px !important;
+    margin: 0 auto;
+    padding: 0 !important;
+    width: 50% !important;
+  }
+  .vip-banner-title {
+    font-size: 25px !important ;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .vip-banner-para {
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    padding: 0 !important;
+    margin: 4px !important;
+  }
+  .vip-carousel {
+    margin: 0 auto !important;
+  }
+  .vip-banner-button {
+    padding: 6px 15px !important;
+    font-size: 12px !important;
+    margin: 5px auto !important;
+  }
+  .vip-banner-image {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .vip-footer {
+    padding: 1.5rem !important;
+  }
+  .vip-footer-text h3 {
+    font-size: 20px !important;
+  }
+  .vip-footer-logo-box h5 {
+    font-size: 13px !important;
+  }
+  .vip-footer-logo {
+    width: 50% !important;
+  }
 }

@@ -23,3 +23,42 @@ body {
   top: 50px !important;
   left: 50px !important;
 }
+
+@media screen and (max-width: 767px) {
+  .vip-logo {
+    font-size: 20px !important;
+  }
+  .margin-x {
+    margin: 25px auto !important;
+  }
+  .vip-banner-text-div {
+    bottom: 12px !important;
+    margin: 0 auto;
+    padding: 0 !important;
+    width: 50% !important;
+  }
+  .vip-banner-title {
+    font-size: 13px !important ;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .vip-banner-para {
+    font-size: 7px !important;
+    font-weight: 300 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .vip-carousel {
+    margin: 0 auto !important;
+  }
+  .vip-banner-button {
+    padding: 3px 6px !important;
+    font-size: 6px !important;
+    margin: 0 auto !important;
+  }
+  .vip-banner-image {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
